@@ -3,7 +3,7 @@ from datasets import load_dataset
 from tqdm import tqdm
 import json
 
-data = load_dataset("lmms-lab/LLaVA-OneVision-Data",'FigureQA(MathV360K)', split="train")
+data = load_dataset("wei682/Cambrian-LLaVA-Amazon-MLLM-objects",'All_Beauty', split="train")
 
 image_folder = "./mydatasets/llava_onevision/images/FigureQA_MathV360K/"
 
